@@ -157,8 +157,8 @@ const main = async () => {
       id: -ComponentType.OffWork,
       workTitle: '距离下班还有',
       restTitle: '休息啦',
-      startDate: new Date(2018, 3, 26, 9, 0, 0).getTime(),
-      date: new Date(2018, 3, 26, 18, 0, 0).getTime(),
+      startDate: new Date(2025, 3, 26, 9, 0, 0).getTime(),
+      date: new Date(2028, 3, 26, 18, 0, 0).getTime(),
     }
     if (idx >= 0) {
       component.components[idx] = {
@@ -373,10 +373,10 @@ const main = async () => {
     settings.showLanguage ??= true
     settings.showRate ??= true
     settings.openSearch ??= true
-    settings.title ??= '发现导航 - 精选实用导航网站'
-    settings.description ??= '发现导航是一个轻量级免费且强大的导航网站'
+    settings.title ??= '发现导航'
+    settings.description ??= '发现导航是一个强大的导航网站'
     settings.keywords ??= '免费导航,开源导航'
-    settings.theme ??= 'Light'
+    settings.theme ??= 'Side'
     settings.actionUrl ??= ''
     settings.appTheme ??= 'Current'
     settings.openSEO ??= !configJson.address
