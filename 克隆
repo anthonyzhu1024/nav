@@ -1,8 +1,0 @@
-git pull
-git remote add upstream https://gitee.com/xiejiahe/nav.git
-git fetch upstream main
-git merge upstream/main --allow-unrelated-histories --no-edit
-git push
-
-# 如果安装了node只需执行
-npm run update
