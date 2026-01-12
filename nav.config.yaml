@@ -25,16 +25,16 @@ imageRepoUrl: ''
 hashMode: true
 
 # 一旦填写认为你是自有部署，Fork 不要填写
-address: 'https://anthonyzhu1024.github.io/nav/#/'
+address: https://anthonyzhu1024.github.io/nav
 
 # 自有部署后台登录密码
-password: 'bluebird'
+password: bluebird
 
 # 自有部署启动端口
 port: 7777
 
 # 收录通知邮箱
-email: 'zhg.123@163.com'
+email: zhg.123@163.com
 
 # 自有部署邮件通知系统
 mailConfig:
