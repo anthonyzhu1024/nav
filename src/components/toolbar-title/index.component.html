@@ -49,7 +49,7 @@
   </div>
 
   <i
-    *ngIf="dataSource.id !== -1 "
+    *ngIf="dataSource.id !== -1 && (isLogin || permissions.create)"
     nz-icon
     nzType="plus"
     nzTheme="outline"
