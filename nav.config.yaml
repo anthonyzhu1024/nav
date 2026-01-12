@@ -34,11 +34,11 @@ password: admin
 port: 7777
 
 # 收录通知邮箱
-email: 'zhg.123@163.com'
+email: ''
 
 # 自有部署邮件通知系统
 mailConfig:
-  host: smtp.163.com
+  host: smtp.mxhichina.com
   port: 465
   secure: true
   auth:
